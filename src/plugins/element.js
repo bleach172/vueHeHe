@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import {
   Button, Input, Form, FormItem, Row, Message, Container, Col, Table, TableColumn, Tooltip, Dialog, MessageBox,
-  Header, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Switch, Pagination
+  Header, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Switch, Pagination, Tag, Tree
 } from 'element-ui'
 
 Vue.use(Button)
@@ -26,5 +26,7 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm

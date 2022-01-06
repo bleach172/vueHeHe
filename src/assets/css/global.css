@@ -11,3 +11,20 @@ html, body, #app {
 .el-card {
     box-shadow:0 2px 6px 0 rgb(0 0 0 / 2%)!important;
 }
+
+.el-table__header-wrapper {
+    line-height: 40px;
+  }
+
+  .el-table {
+      line-height: 20px;
+  }
+
+  .roles-center {
+      display: flex;
+      align-items: center;
+  }
+ .el-dialog__header {
+    height: 40px;
+    line-height: 40px;
+  }
